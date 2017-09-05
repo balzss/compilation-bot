@@ -13,6 +13,7 @@ Python3 and FFmpeg.
 - run script: `python3 app.py`
 - or run script with options (see details below): `python3 app.py -s woahdude -m ~/Downloads/random-song.mp3`
 - the result will be created in the data folder with the current date as the name and the video titled 'final.mp4'
+- please note: the video rendering will take some time, usually 60 to 120 minutes
 
 ## What command line options does it have?
 - specifying the subreddit (defaults to [r/oddlysatisfying](https://www.reddit.com/r/oddlysatisfying/)): `--subreddit [SUB NAME]` or `-s [SUB NAME]`
