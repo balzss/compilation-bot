@@ -1,6 +1,6 @@
 ## What is this?
 A python script that creates a compilation video with music from gifs from a given subreddit. [Here is an example
-video.]()
+video.](https://www.youtube.com/watch?v=mT8efxzTsSc)
 
 ## What does it need?
 Python3 and FFmpeg.
@@ -12,7 +12,8 @@ Python3 and FFmpeg.
 - install dependencies: `pip3 install -r requirements.txt`
 - run script: `python3 app.py`
 - or run script with options (see details below): `python3 app.py -s woahdude -m ~/Downloads/random-song.mp3`
+- the result will be created in the data folder with the current date as the name and the video titled 'final.mp4'
 
 ## What command line options does it have?
-- specifying the subreddit (defaults to [r/oddlysatisfying]()): `--subreddit [SUB NAME]` or `-s [SUB NAME]`
-- specifying the background music (defaults to a random track [from here]()): `--music [MUSIC PATH]` or `-m [MUSIC PATH]`
+- specifying the subreddit (defaults to [r/oddlysatisfying](https://www.reddit.com/r/oddlysatisfying/)): `--subreddit [SUB NAME]` or `-s [SUB NAME]`
+- specifying the background music (defaults to a random track [from here](https://www.youtube.com/playlist?list=PLDcPimbLEWH99SxqupfspMsNjuBrjEjoI)): `--music [MUSIC PATH]` or `-m [MUSIC PATH]`
