@@ -58,7 +58,7 @@ def get_duration(f):
 def content_downloader(sub, dur):
     # get list of top content in given sub from last week
     search_limit = 100
-    ro = Reddit(client_secret='RBDf_ezpW5XTWINEkyTR_ToEpsw', client_id='N686mJvyudlTnw', user_agent='collects gifs for yt compilation')
+    ro = Reddit(client_secret='<YOUR_CLIENT_SECRET>', client_id='<YOUR_CLIENT_ID>', user_agent='collects gifs for yt compilation')
     contents = ro.subreddit(sub).top('week', limit=search_limit)
 
     # get list of urls for 'acceptable' content
@@ -83,7 +83,7 @@ def content_downloader(sub, dur):
                     else x.url.split('-')[-1]
 
             json_url = 'http://api.giphy.com/v1/gifs/ \
-                    %s ?api_key=dc6zaTOxFJmzC' % giphy_id
+                    %s ?api_key=<YOUR_API_KEY>' % giphy_id
             try:
                 jsonf = json.loads(request.urlopen(json_url)
                         .read().decode())
