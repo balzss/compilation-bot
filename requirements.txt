@@ -15,5 +15,5 @@ requests==2.18.4
 scipy==0.19.1
 tqdm==4.11.2
 update-checker==0.16
-urllib3==1.22
+urllib3==1.26.5
 youtube-dl==2017.8.23
